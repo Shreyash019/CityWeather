@@ -33,7 +33,6 @@ function Main(props) {
     const handeleOnSubmit = (e)=>{
       e.preventDefault();
       sendRequest()
-      alert(city)
     }
   return (
     <>
