@@ -1,0 +1,51 @@
+.footer{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color: rgb(113, 110, 110);
+}
+
+.footer-top{
+    width: 100%;
+    height:auto;
+}
+    .footer-top hr{
+        color: black;
+        width: 80%;
+        height: 3px;
+        margin: 1% 10%
+    }
+
+    .footer-top-content{
+        width: 80%;
+        height: auto;
+        margin: 0% 10%;
+    }
+    .footer-top-content img{
+        height: 40px;
+    }
+    .footer-top-content h3{
+        margin: 2% 0% 0% 0%;
+        font-weight: 600;
+        color: white;
+    }
+    .footer-top-content p{
+        color: white;
+        display: inline;
+        padding: 0% 5% 0% 0%;
+        font-size: 0.8em;
+    }
+    .footer-top-content a{
+        color: white;
+        text-decoration: none;
+    }
+
+.footer-bottom{
+    width: auto;
+    height: auto;
+}
+.footer-bottom p{
+    color: white;
+    font-size: 0.7em;
+    margin: 0% 10% 1% 10%
+}

@@ -1,0 +1,167 @@
+.homepage-container{
+    width: 100%;
+    height: auto;
+    overflow: auto;
+}
+
+.mainpage-top-content{
+    background-color: white;
+    height:auto;
+    width: 100%;
+    min-height: 500px;
+}
+    .mainpage-top-content-left{
+        background-color: rgb(255, 255, 255);
+        float:left;
+        height:auto;
+        width: 50%;
+    }
+        .mainpage-top-content-left-details{
+            margin: 25% 0% 0% 10%;
+        }
+            .mainpage-top-content-left-details p{
+                font-size: 1.2em;
+                font-weight: 700;
+                color:black;
+                margin: 0% 0% 2% 10%;
+            }
+                .mainpage-top-content-left-details p:hover{
+                    color:rgb(6, 35, 115);
+                }
+            .mainpage-top-content-left-details button{
+                font-size: 1.2em;
+                font-weight: 700;
+                margin: 5% 0% 10% 10%;
+                background-color: rgb(220, 26, 26);
+                color: white;
+                padding: 3px 10px 3px 10px;
+                border-radius: 5px;
+                border: 3px solid rgb(249, 205, 205);
+                border-top: 0px;
+                border-left: 0px;
+            }
+                .mainpage-top-content-left-details button:hover{
+                    background-color: rgb(196, 8, 8);
+                    border: 2px solid rgb(237, 164, 164);
+                    border-top: 0px;
+                    border-left: 0px;
+                }
+                    .mainpage-top-content-left-details a{
+                        color: white;
+                        text-decoration: none;
+            
+                    }
+
+    .mainpage-top-content-right{
+        float:left;
+        height:auto;
+        width: 50%;
+        min-height: 500px;
+    }
+        .mainpage-top-content-right img{
+            background-color: white;
+            height:auto;
+            width: 70%;
+            margin: 16% 0% 0% 10%;
+        }
+
+
+@media only screen and (max-width: 600px) {
+    .mainpage-top-content{
+        background-color: white;
+        height:min-content;
+        width: 100%;
+        min-height: 500px;
+    }
+    .mainpage-top-content-left{
+        width: 100%;
+    }.mainpage-top-content-left-details{
+            margin: 20% 12% 10% 8%;
+
+        }
+    .mainpage-top-content-right{
+        width: 100%;
+    }.mainpage-top-content-right img{
+            width: 80%;
+            margin: 25% 10% 10% 10%;
+        }
+    .mainpage-top-content-left-details button{
+            font-size: 3.5vw;
+            font-weight: 700;
+            margin: 5% 0% 10% 10%;
+            background-color: rgb(220, 26, 26);
+            color: white;
+            padding: 3px 10px 3px 10px;
+            border-radius: 5px;
+            border: 3px solid rgb(249, 205, 205);
+            border-top: 0px;
+            border-left: 0px;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .mainpage-top-content-left{
+        background-color: rgb(243, 249, 251);
+        width: 100%;
+    }.mainpage-top-content-left-details{
+            margin: 20% 10% 10% 10%;
+        }
+    .mainpage-top-content-right{
+        width: 100%;
+    }.mainpage-top-content-right img{
+            width: 70%;
+            margin: 30% 15% 10% 15%;
+        }
+}
+
+@media only screen and (min-width: 750px) {
+    .mainpage-top-content-left{
+        width: 45%;
+        background-color: white;
+    }.mainpage-top-content-left-details{
+            margin: 32% 0% 0% 7%;
+        }
+    .mainpage-top-content-right{
+        background-color: white;
+        width: 55%;
+    }.mainpage-top-content-right img{
+            background-color: white;
+            height:auto;
+            width: 80%;
+            margin: 16% 0% 0% 10%;
+        }
+}
+
+@media only screen and (min-width: 900px) {
+    .mainpage-top-content-left{
+        width: 45%;
+        background-color: white;
+    }.mainpage-top-content-left-details{
+            margin: 32% 0% 0% 7%;
+        }
+    .mainpage-top-content-right{
+        background-color: white;
+        width: 55%;
+    }.mainpage-top-content-right img{
+            background-color: white;
+            height:auto;
+            width: 75%;
+            margin: 16% 0% 0% 10%;
+        }
+}
+
+@media only screen and (min-width: 1200px) {
+    .mainpage-top-content-left{
+        width: 50%;
+        background-color: white;
+    }.mainpage-top-content-left-details{
+            margin: 25% 0% 0% 10%;
+        }
+    .mainpage-top-content-right{
+        width: 50%;
+    }.mainpage-top-content-right img{
+            background-color: white;
+            height:auto;
+            width: 70%;
+            margin: 10% 0% 0% 10%;
+        }
+}

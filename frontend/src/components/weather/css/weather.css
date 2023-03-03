@@ -1,0 +1,324 @@
+.cardContainer{
+    background-color: #f5f6f9;    
+    background-size: 100% 100%;
+    width: 84%;
+    height: auto;
+    overflow: auto;
+    min-height: 700px;
+    border-radius: 20px;
+    margin: 4% 8% 10% 8%;
+    border-radius: 25px 28px 32px 36px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+    .time-input-container{
+        width: 100%;
+        height: 100px;
+        overflow: auto;
+    }
+        .time-container{
+            width: 50%;
+            float: left;
+            text-align: center;
+        }
+        .time-container p{
+            margin: 8% 0% 0% 0%;
+            font-size: 1em;
+            font-weight: 900;
+            color: rgb(103, 23, 23);
+        }
+        .input-container{
+            width: 50%;
+            height: 28px;
+            float: left;
+        }
+        .input-container input{
+            border-radius: 5px;
+            border: none;
+            text-align: center;
+            margin: 8% 1% 0% 0%;
+            padding: 0.5%;
+            height: 100%;
+            width: 50%;
+            outline: none;
+            border: 1px solid rgb(182, 181, 181);
+            border-top: 0px;
+            border-left: 0px;
+        }
+        .input-container button{
+            background-color: rgb(255, 13, 0);
+            color: white;
+            border-radius: 8px;
+            border: none;
+            width: 20%;
+            height: auto;
+            font-weight: 800;
+            padding: 0% 2% 0% 2%;
+            border: 2px solid rgb(251, 214, 214);
+            border-top: 0px;
+            border-left: 0px;
+        }
+        .input-container button:hover{
+            background-color: rgb(93, 56, 54);
+            border: 1px solid rgb(249, 199, 199);
+            border-top: 0px;
+            border-left: 0px;
+        }
+    .weather-detail-container{
+        width:100%;
+    }
+        .temp-details-container{
+            width:50%;
+            float: left;
+            height: auto;
+        }
+            .temp-detail{
+                width: 60%;
+                margin: 5% 20%;
+            }
+            .temp-detail h4{
+                color: rgb(230, 94, 94);
+                font-size: 2.4em;
+                font-weight: 700;
+            }
+            .temp-detail hr{
+                width: 100%;
+                height: 6px;
+                margin: 6% 0% 0% 0%;
+                color: rgb(249, 0, 0);
+                border: 2px solid rgb(41, 7, 2);
+                border-top: 0px;
+                border-left: 0px;
+            }
+            .temp-detail p{
+                font-size: 1.2em;
+                font-weight: 500;
+                color: rgb(93, 23, 23);
+                margin: 4% 0% 0% 0%;
+            }
+
+
+        .temp-more-detail-container{
+            width:50%;
+            float: left;
+            margin: 0% 0% 10% 0%;
+        }
+            .weather-more-detail{
+                margin: 0% 0% 0% 10%;
+            }
+            .weather-more-detail hr{
+                height:8px;
+                width: 80%;
+                margin: 10% 0% 5% 0%;
+                color: rgb(32, 21, 255);
+                border: 2.5px solid rgb(161, 147, 231);
+                border-top: 0px;
+                border-left: 0px;
+            }
+            .weather-more-detail p{
+                margin: 2.5% 0% 0% 0%;
+                color: rgb(64, 32, 25);
+                font-weight: 500;
+            }
+
+
+@media only screen and (max-width: 600px){
+    .cardContainer{
+        width: 84%;
+        margin: 10% 8% 20% 8%;
+        border-radius: 25px 28px 32px 36px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        height: auto;
+        overflow: auto;
+        text-align: center;
+    }
+    .time-input-container{
+        height: auto;
+        overflow: hidden;
+        width: 100%;
+        height: 110px;
+        padding: 0% 0% 2% 0%;
+        text-align: center;
+    }
+        .time-container{
+            width: 100%;
+        }
+        .time-container p{
+            font-size: 0.9em;
+            margin: 5% 0% 0% 0%
+        }
+        .input-container{
+            width: 100%;
+            height: auto;
+        }
+        .input-container input{
+            height: 20px;
+            margin: 5% 1% 2% 0%;
+            padding: 1% 0% 1% 0%;
+            font-size: 0.9em;
+        }
+        .input-container button{
+            font-size: 0.8em;
+            font-weight: 600;
+        }
+
+    .weather-detail-container{
+        height: auto;
+        overflow: auto;
+        width:100%;
+        margin:0%;
+    }
+        .temp-details-container{
+            width:100%;
+            float: left;
+            height: auto;
+        }
+            .temp-detail{
+                width: 100%;
+            }
+            .temp-detail h4{
+                color: rgb(230, 94, 94);
+                font-size: 2em;
+                font-weight: 700;
+            }
+            .temp-detail hr{
+                width: 100%;
+                height: 6px;
+                margin: 6% 0% 0% 0%;
+                color: rgb(249, 0, 0);
+                border: 2px solid rgb(41, 7, 2);
+                border-top: 0px;
+                border-left: 0px;
+            }
+            .temp-detail p{
+                font-size: 1.1em;
+                font-weight: 400;
+                color: rgb(93, 23, 23);
+                margin: 4% 0% 0% 0%;
+            }
+
+
+        .temp-more-detail-container{
+            width:100%;
+            float: left;
+        }
+            .weather-more-detail{
+                width: 66%;
+                margin: 5% 17% 0% 17%;
+            }
+            .weather-more-detail hr{
+                height:6px;
+                width: 100%;
+                margin: 10% 0% 5% 0%;
+                color: rgb(32, 21, 255);
+                border: 1.5px solid rgb(161, 147, 231);
+                border-top: 0px;
+                border-left: 0px;
+            }
+            .weather-more-detail p{
+                margin: 2.5% 0% 0% 0%;
+                color: rgb(64, 32, 25);
+                font-size: 0.9em;
+                font-weight: 400;
+            }
+}
+
+
+@media only screen and (max-width: 800px){
+    .cardContainer{
+        width: 84%;
+        margin: 10% 8% 20% 8%;
+        border-radius: 25px 28px 32px 36px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        height: auto;
+        overflow: auto;
+    }
+    .time-input-container{
+        height: auto;
+        overflow: hidden;
+        width: 100%;
+        height: 110px;
+        padding: 0% 0% 2% 0%;
+        text-align: center;
+    }
+        .time-container{
+            width: 100%;
+        }
+        .time-container p{
+            font-size: 0.9em;
+            margin: 5% 0% 0% 0%
+        }
+        .input-container{
+            width: 100%;
+            height: auto;
+        }
+        .input-container input{
+            height: 20px;
+            margin: 5% 1% 2% 0%;
+            padding: 1% 0% 1% 0%;
+            font-size: 0.9em;
+        }
+        .input-container button{
+            font-size: 0.8em;
+            font-weight: 600;
+        }
+
+    .weather-detail-container{
+        width:100%;
+        height: auto;
+        overflow: auto;
+    }
+        .temp-details-container{
+            width:100%;
+            float: left;
+            height: auto;
+        }
+            .temp-detail{
+                width: 66%;
+                margin: 15% 17% 5% 17%;
+            }
+            .temp-detail h4{
+                color: rgb(230, 94, 94);
+                font-size: 2em;
+                font-weight: 700;
+            }
+            .temp-detail hr{
+                width: 100%;
+                height: 6px;
+                margin: 6% 0% 0% 0%;
+                color: rgb(249, 0, 0);
+                border: 2px solid rgb(41, 7, 2);
+                border-top: 0px;
+                border-left: 0px;
+            }
+            .temp-detail p{
+                font-size: 1.1em;
+                font-weight: 400;
+                color: rgb(93, 23, 23);
+                margin: 4% 0% 0% 0%;
+            }
+
+
+        .temp-more-detail-container{
+            width:100%;
+            float: left;
+        }
+            .weather-more-detail{
+                width: 66%;
+                margin: 5% 17% 0% 17%;
+            }
+            .weather-more-detail hr{
+                height:6px;
+                width: 100%;
+                margin: 10% 0% 5% 0%;
+                color: rgb(32, 21, 255);
+                border: 1.5px solid rgb(161, 147, 231);
+                border-top: 0px;
+                border-left: 0px;
+            }
+            .weather-more-detail p{
+                margin: 2.5% 0% 0% 0%;
+                color: rgb(64, 32, 25);
+                font-size: 0.9em;
+                font-weight: 400;
+            }
+}
