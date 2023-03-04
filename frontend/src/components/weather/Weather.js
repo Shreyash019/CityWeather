@@ -17,8 +17,7 @@ function Main(props) {
     })
     
     const sendRequest = async ()=> {
-      console.log(city)
-      const res = await axios.post(`http://localhost:5000/api/v1/weather`, {
+      const res = await axios.post(`/api/v1/weather`, {
         city:city
       })
       if (res.data.status===true) {

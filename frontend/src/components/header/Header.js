@@ -9,7 +9,7 @@ export default function Header(props){
         <>
             <div className="headernav">
                 <div className='navProject-title'>
-                    <span><Link to='/'><img src={title_logo} alt='website title logo'/></Link></span>
+                    <span><Link to='/'><img src={title_logo} alt='website title logo'/>City Weather</Link></span>
                 </div>
             </div>
         </>

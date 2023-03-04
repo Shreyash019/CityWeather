@@ -24,7 +24,9 @@ const ShowDetails = ({data}) => {
                 <hr/>
                 {(!(data.data?.name))?  <p><BsCloudHaze2Fill/> --</p>: <p><BsCloudHaze2Fill/> {data.data?.clouds?.all}%</p> }
                 {!(data.data?.wind?.speed)?  <p><MdWindPower/> --</p>: <p><MdWindPower/> {data.data?.wind?.speed} <i>kmph</i></p> }       
-                {!(data.data?.wind?.deg)?  <p><MdDirections/> --</p>: <p><MdDirections/> {data.data?.wind?.deg}&deg;</p> }
+                {!(data.data?.wind?.deg)?  <p><MdDirections/> --</p>: <p><MdDirections/> {
+                (data.data?.wind?.deg<90)? <i>EAST </i>: (data.data?.wind?.deg<180)? <i>North</i>: (data.data?.wind?.deg<270)? <i>West</i>: <i>South</i>
+                }</p> }
                 {!(data.data?.main?.pressure)?  <p><MdCompress/> --</p>: <p><MdCompress/> {data.data?.main?.pressure}</p> } 
                 {!(data.data?.sys?.sunrise)?  <p><BsFillSunriseFill/> -- </p>: <p><BsFillSunriseFill/> {data.data?.sys?.sunrise.toString()}</p> }
                 {!(data.data?.sys?.sunset)?  <p><BsFillSunsetFill/> -- </p>: <p><BsFillSunsetFill/> {data.data?.sys?.sunset.toString()}</p> }
